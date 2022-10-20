@@ -1,8 +1,8 @@
-const Intro = () => {
+const Intro = ({ isMonthly }) => {
   return (
     <div className="price-card">
       <div className="price-card__price-container">
-        <h1 className="price-card__price">$19</h1>
+        <h1 className="price-card__price">{isMonthly ? '$19' : '$12'}</h1>
         <span className="price-card__perMonth">/month</span>
       </div>
       <div className="price-card__title-container">

@@ -1,10 +1,10 @@
-const Premium = () => {
+const Premium = ({ isMonthly }) => {
   return (
     <div className="main-premium-card">
       <div className="most-popular">MOST POPULAR</div>
       <div className="premium-card price-card">
         <div className="price-card__price-container">
-          <h1 className="price-card__price white-text">$89</h1>
+          <h1 className="price-card__price white-text">{isMonthly ? '$89' : '$56'}</h1>
           <span className="price-card__perMonth white-text">/month</span>
         </div>
         <div className="price-card__title-container">

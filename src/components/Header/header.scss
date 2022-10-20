@@ -35,11 +35,11 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
-    text-align: center;
     color: #ffffff;
     cursor: pointer;
     @include for-1326px {
       display: block;
+      height: 38px;
     }
   }
 }

@@ -9,9 +9,10 @@
   border-color: transparent;
   color: white inherit;
   @include for-1326px {
+    margin: 0;
     height: 473px;
     position: absolute;
-    top: -20px;
+    top: -26px;
     left: 600px;
   }
 }
@@ -28,6 +29,10 @@
   font-size: 10px;
   line-height: 15px;
   color: $purple-color;
+  @include for-1326px {
+    align-self: end;
+    margin-right: 30px;
+  }
 }
 .premium-card {
   color: white;

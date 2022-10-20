@@ -1,4 +1,11 @@
-const MainInfo = () => {
+const MainInfo = ({ isMonthly, setButton }) => {
+  const monthly = isMonthly
+    ? 'mainInfo-container__btns__btn mainInfo-container__btns__btn_active'
+    : 'mainInfo-container__btns__btn';
+  const yearly = isMonthly
+    ? 'mainInfo-container__btns__btn '
+    : 'mainInfo-container__btns__btn mainInfo-container__btns__btn_active';
+
   return (
     <div className="mainInfo">
       <h1 className="mainInfo__title">Plans & Pricing</h1>
@@ -8,8 +15,12 @@ const MainInfo = () => {
           scale.
         </p>
         <div className="mainInfo-container__btns">
-          <button className="mainInfo-container__btns__btn active-btn">Monthly</button>
-          <button className="mainInfo-container__btns__btn">Yearly</button>
+          <button className={monthly} onClick={() => setButton(true)}>
+            Monthly
+          </button>
+          <button className={yearly} onClick={() => setButton(false)}>
+            Yearly
+          </button>
         </div>
       </div>
     </div>
