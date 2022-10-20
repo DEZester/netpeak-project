@@ -1,0 +1,5 @@
+@mixin for-1326px {
+  @media (min-width: 1326px) {
+    @content;
+  }
+}

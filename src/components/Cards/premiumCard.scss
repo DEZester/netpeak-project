@@ -1,0 +1,53 @@
+.main-premium-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 8px 8px;
+  background: $dark-color;
+  box-shadow: 0px 42px 34px rgba(82, 67, 194, 0.295755);
+  border-radius: 26px;
+  border-color: transparent;
+  color: white inherit;
+  @include for-1326px {
+    height: 473px;
+    position: absolute;
+    top: -20px;
+    left: 600px;
+  }
+}
+.most-popular {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 7px 17px 5px;
+  width: 121px;
+  text-align: center;
+  background: #403879;
+  border-radius: 13.5px;
+  border-color: transparent;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 15px;
+  color: $purple-color;
+}
+.premium-card {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.premium-list {
+  margin-bottom: 22px;
+  @include for-1326px {
+    height: 145px;
+  }
+}
+.premium-btn {
+  margin-bottom: 20px;
+  height: 44px;
+  background: $purple-color;
+  @include for-1326px {
+    width: 100%;
+  }
+}
+.list-icon-pr {
+  background-image: url('../../../public/list-icon-pr.png');
+}

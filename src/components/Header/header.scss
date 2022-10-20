@@ -1,0 +1,45 @@
+@import '../../variables.scss';
+@import '../../mixins.scss';
+.header {
+  display: flex;
+  align-items: center;
+  height: 94px;
+  width: 100%;
+  &__navIcon {
+    width: 32px;
+    height: 32;
+    margin-left: 24px;
+    margin-right: auto;
+    cursor: pointer;
+    @include for-1326px {
+      margin-left: 50px;
+    }
+  }
+  &__logo {
+    margin-right: 24px;
+    margin-left: auto;
+    @include for-1326px {
+      margin-right: auto;
+    }
+  }
+  &__btn {
+    display: none;
+    margin-left: auto;
+    margin-right: 50px;
+    background: #bb6bd9;
+    border-color: transparent;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    @include for-1326px {
+      display: block;
+    }
+  }
+}
