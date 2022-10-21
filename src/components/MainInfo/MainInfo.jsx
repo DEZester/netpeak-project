@@ -26,5 +26,5 @@ const MainInfo = ({ isMonthly, setButton }) => {
     </div>
   );
 };
-
+//something
 export default MainInfo;
