@@ -1,4 +1,4 @@
-.main-premium-card {
+.main-premium {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,44 +15,48 @@
     top: -26px;
     left: 600px;
   }
-}
-.most-popular {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 7px 17px 5px;
-  width: 121px;
-  text-align: center;
-  background: #403879;
-  border-radius: 13.5px;
-  border-color: transparent;
-  font-weight: 800;
-  font-size: 10px;
-  line-height: 15px;
-  color: $purple-color;
-  @include for-1326px {
-    align-self: end;
-    margin-right: 30px;
+  &__most-popular {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 7px 17px 5px;
+    width: 121px;
+    text-align: center;
+    background: #403879;
+    border-radius: 13.5px;
+    border-color: transparent;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 15px;
+    color: $purple-color;
+    @include for-1326px {
+      align-self: end;
+      margin-right: 30px;
+    }
   }
-}
-.premium-card {
-  color: white;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.premium-list {
-  margin-bottom: 22px;
-  @include for-1326px {
-    height: 145px;
+
+  &__card {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
   }
-}
-.premium-btn {
-  margin-bottom: 20px;
-  height: 44px;
-  background: $purple-color;
-  @include for-1326px {
-    width: 100%;
+  &__list {
+    margin-bottom: 22px;
+    @include for-1326px {
+      height: 145px;
+    }
   }
-}
-.list-icon-pr {
-  background-image: url('../../../public/list-icon-pr.png');
+  &__btn {
+    margin-bottom: 20px;
+    height: 44px;
+    background: $purple-color;
+    @include for-1326px {
+      width: 100%;
+    }
+  }
+  &__list-icon {
+    background-image: url('../../../public/list-icon-pr.png');
+  }
+  &__text {
+    color: white;
+  }
 }
