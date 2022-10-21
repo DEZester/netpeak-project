@@ -2,7 +2,7 @@
 
 ### [Site link](https://netpeak-tast-test.netlify.app/)
 
-Layout supports desktop (up-to-1400) versions
+Layout supports desktop and mobile versions
 
 ### The tech stack is:
 
