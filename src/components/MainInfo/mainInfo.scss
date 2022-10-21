@@ -10,7 +10,6 @@
   &__title {
     margin-top: 41px;
     margin-bottom: 25px;
-    font-weight: 400;
     font-size: 40px;
     line-height: 60px;
     color: $dark-color;
@@ -34,14 +33,12 @@
       margin: 0 122px 0 0;
     }
   }
-  &__btns-container {
+  &__btns {
     background-color: #fff;
     border-radius: 22px;
     @include for-1326px {
       display: flex;
     }
-  }
-  .btns-container {
     &__btn {
       padding: 13px 24px;
       border: 1px solid transparent;
