@@ -1,10 +1,10 @@
 const MainInfo = ({ isMonthly, setButton }) => {
   const monthly = isMonthly
-    ? 'mainInfo-container__btns__btn mainInfo-container__btns__btn_active'
-    : 'mainInfo-container__btns__btn';
+    ? 'btns-container__btn btns-container__btn_active'
+    : 'btns-container__btn';
   const yearly = isMonthly
-    ? 'mainInfo-container__btns__btn '
-    : 'mainInfo-container__btns__btn mainInfo-container__btns__btn_active';
+    ? 'btns-container__btn '
+    : 'btns-container__btn btns-container__btn_active';
 
   return (
     <div className="mainInfo">
@@ -14,7 +14,7 @@ const MainInfo = ({ isMonthly, setButton }) => {
           Whether your time-saving automation needs are large or small, we’re here to help you
           scale.
         </p>
-        <div className="mainInfo-container__btns">
+        <div className="mainInfo-container__btns-container">
           <button className={monthly} onClick={() => setButton(true)}>
             Monthly
           </button>
