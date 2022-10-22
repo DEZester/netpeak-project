@@ -9,7 +9,7 @@ const Intro = ({ isMonthly }) => {
         <h2 className="price-card__title">Starter</h2>
         <span className="price-card__info">Unleash the power of automation.</span>
       </div>
-      <ul className="price-card__list firstList">
+      <ul className="price-card__list">
         <li className="price-card__list-item">
           <i className="price-card__icon"></i>Multi-step Zaps
         </li>

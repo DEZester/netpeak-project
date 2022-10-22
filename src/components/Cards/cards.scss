@@ -86,7 +86,7 @@
     padding: 0;
     list-style-type: none;
     @include for-1326px {
-      margin-bottom: 0;
+      margin-bottom: auto;
     }
   }
   &__list-item {
@@ -133,18 +133,6 @@
       height: 45px;
       width: 207px;
     }
-  }
-}
-.firstList {
-  @include for-1326px {
-    height: 83px;
-    margin-bottom: 85px;
-  }
-}
-.secondList {
-  @include for-1326px {
-    height: 114px;
-    margin-bottom: 54px;
   }
 }
 .introPerMonth {

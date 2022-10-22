@@ -11,7 +11,7 @@ const Base = ({ isMonthly }) => {
           Advanced tools to take your work to the next level.
         </span>
       </div>
-      <ul className="price-card__list secondList">
+      <ul className="price-card__list">
         <li className="price-card__list-item">
           <i className="price-card__icon"></i>Multi-step Zaps
         </li>
