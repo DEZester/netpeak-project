@@ -124,6 +124,10 @@
     line-height: 22px;
     color: #fff;
     cursor: pointer;
+    &:hover {
+      background: $darkPurple-color;
+      transition: 0.3s;
+    }
     @include for-1326px {
       height: 45px;
       width: 207px;

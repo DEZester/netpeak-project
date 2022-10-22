@@ -37,6 +37,10 @@
     line-height: 18px;
     color: #ffffff;
     cursor: pointer;
+    &:hover {
+      background: $darkPurple-color;
+      transition: 0.3s;
+    }
     @include for-1326px {
       display: block;
       height: 38px;
