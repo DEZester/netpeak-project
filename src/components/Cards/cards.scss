@@ -35,8 +35,7 @@
     }
   }
   &__price-container {
-    display: flex;
-    align-items: center;
+    position: relative;
   }
   &__price {
     margin: 0;
@@ -50,6 +49,8 @@
     color: $dark-color;
   }
   &__perMonth {
+    position: absolute;
+    top: 17px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -134,7 +135,6 @@
     }
   }
 }
-
 .firstList {
   @include for-1326px {
     height: 83px;
@@ -146,4 +146,13 @@
     height: 114px;
     margin-bottom: 54px;
   }
+}
+.introPerMonth {
+  left: 64px;
+}
+.basePerMonth {
+  left: 76px;
+}
+.premiumPerMonth {
+  left: 72px;
 }

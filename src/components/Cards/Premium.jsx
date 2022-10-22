@@ -5,7 +5,7 @@ const Premium = ({ isMonthly }) => {
       <div className="price-card main-premium__card">
         <div className="price-card__price-container">
           <h1 className="price-card__price main-premium__text">{isMonthly ? '$89' : '$56'}</h1>
-          <span className="price-card__perMonth main-premium__text">/month</span>
+          <span className="price-card__perMonth main-premium__text premiumPerMonth">/month</span>
         </div>
         <div className="price-card__title-container">
           <h2 className="price-card__title main-premium__text">Company</h2>

@@ -3,7 +3,7 @@ const Intro = ({ isMonthly }) => {
     <div className="price-card">
       <div className="price-card__price-container">
         <h1 className="price-card__price">{isMonthly ? '$19' : '$12'}</h1>
-        <span className="price-card__perMonth">/month</span>
+        <span className="price-card__perMonth introPerMonth">/month</span>
       </div>
       <div className="price-card__title-container">
         <h2 className="price-card__title">Starter</h2>
