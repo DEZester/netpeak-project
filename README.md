@@ -1,4 +1,4 @@
-# Price cards layout
+# NetPeak Test Task
 
 ### [Site link](https://netpeak-tast-test.netlify.app/)
 
